@@ -7,7 +7,7 @@ jobs:
       - name: my-step
         run: echo "hello world"
 
-    second-job:
+  second-job:
     runs-on: windows-latest
     steps:
       - name: welcome
