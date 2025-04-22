@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: my-step
         run: echo "hello world"
+
+    second-job:
+    runs-on: windows-latest
+    steps:
+      - name: welcome
+        run: echo "This is the second workflow "
